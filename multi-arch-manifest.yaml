@@ -1,0 +1,7 @@
+image: ckulka/multi-arch-example:latest
+manifests:
+  - image: ckulka/multi-arch-example:arm32v7
+    platform:
+      architecture: arm
+      os: linux
+      variant: v7
