@@ -5,3 +5,7 @@ manifests:
       architecture: arm
       os: linux
       variant: v7
+  - image: polvoazul/subsync-arm:amd
+    platform:
+      architecture: amd64
+      os: linux
