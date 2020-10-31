@@ -1,6 +1,6 @@
-image: ckulka/multi-arch-example:latest
+image: polvoazul/subsync-arm:latest
 manifests:
-  - image: ckulka/multi-arch-example:arm32v7
+  - image: polvoazul/subsync-arm:arm32v7
     platform:
       architecture: arm
       os: linux
